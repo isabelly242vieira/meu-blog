@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Florescer - Blog de Autocuidado</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif sans-serif
+    }
+
+    body {
+        background: #fffaf7;
+        color: #5c4b51;
+        line-height: 1.6;
+    }
+
+    header {
+        background: linear-gradient(135deg, #e4a4de1c, #fce4ec);
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        color: #8e5a6a;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        background: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #8e5a6a;
+        margin: 0 15px;
+        font-weight: 600;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .posts {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    .card h2 {
+        color: #8e5a6a;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        background: #f8bfc8;
+        color: white;
+        padding: 10px 18px;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #e8a2b0;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        background: #fce4ec;
+        margin-top: 50px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌸 Florescer</h1>
+    <p>Seu espaço para autocuidado, bem-estar e amor-próprio</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Autocuidado</a>
+    <a href="#">Bem-estar</a>
+    <a href="#">Mindfulness</a>
+    <a href="#">Contato</a>
+</nav>
+
+<div class="container">
+    <div class="posts">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15" alt="Autocuidado">
+            <div class="card-content">
+                <h2>5 hábitos para cuidar de si mesma</h2>
+                <p>Pequenas mudanças diárias podem transformar sua saúde mental e emocional.</p>
+                <a href="#" class="btn">Ler mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773" alt="Meditação">
+            <div class="card-content">
+                <h2>Meditação para iniciantes</h2>
+                <p>Aprenda a desacelerar a mente e cultivar mais tranquilidade no dia a dia.</p>
+                <a href="#" class="btn">Ler mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a" alt="Bem-estar">
+            <div class="card-content">
+                <h2>Rotina de autocuidado noturno</h2>
+                <p>Crie um ritual relaxante para terminar o dia com mais leveza.</p>
+                <a href="#" class="btn">Ler mais</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>🌷 Florescer Blog • Inspirando autocuidado todos os dias</p>
+</footer>
+
+</body>
+</html>
